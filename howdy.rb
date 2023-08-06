@@ -1,7 +1,11 @@
-my_string = "Hello, world!"
-pp my_string
+# my_string = "Hello, world!"
+# pp my_string
 
 require "./goodbye.rb"
 require "active_support/all"
 
-1.ordinalize
+pp "What's your name?"
+
+their_name = gets
+
+pp "Hello, " + their_name + "!"
